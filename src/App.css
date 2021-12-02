@@ -1,6 +1,21 @@
 .App {
   text-align: center;
+  background-image: url(https://lmpixels.com/wp/leven-wp/wp-content/uploads/2019/12/main_bg_14.png);
+  background-color: #007bff;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+    
 }
+
 
 .App-logo {
   height: 40vmin;
