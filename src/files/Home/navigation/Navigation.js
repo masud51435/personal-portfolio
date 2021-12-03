@@ -14,8 +14,10 @@ const Navigation = () => {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end" >
             <Nav.Link as={Link} style={{color:'white', fontWeight:'600'}} to="/home">Home</Nav.Link>
+            <Nav.Link as={Link} style={{color:'white', fontWeight:'600'}} to="/aboutme">About Me</Nav.Link>
             <Nav.Link as={Link} style={{color:'white', fontWeight:'600'}} to="/skill">Skills</Nav.Link>
             <Nav.Link as={Link} style={{color:'white', fontWeight:'600'}} to="/project">Project</Nav.Link>
+            <Nav.Link as={Link} style={{color:'white', fontWeight:'600'}} to="/blog">Blog</Nav.Link>
             <Nav.Link as={Link} style={{color:'white', fontWeight:'600'}} to="/contract">Contract</Nav.Link>
           </Navbar.Collapse>
         </Container>

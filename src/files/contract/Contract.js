@@ -23,7 +23,7 @@ const Contract = () => {
 
 
   return (
-    <Container className='all'>
+    <Container className='all' data-aos="fade-up-right">
       <Navigation ></Navigation>
 
       <hr style={{ color: 'white', border: '1px solid ' }} />
@@ -34,7 +34,9 @@ const Contract = () => {
       <hr style={{ color: 'white', border: '1px solid ' }} />
 
       <Row className='my-5'>
-        <Col sm={12} md={12} lg={4}>
+        <Col sm={12} md={12} lg={4} data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
           <Col style={{ display: 'flex', marginBottom: '20px' }}>
             <Col>
               <Image src={phone} style={{ width: '50px' }} />
@@ -60,10 +62,10 @@ const Contract = () => {
               <h6 >Ullapara, Sirajganj</h6>
             </Col>
           </Col>
-
-
         </Col>
-        <Col sm={12} md={12} lg={8}>
+        <Col sm={12} md={12} lg={8} data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
           <h3 style={{ color: 'white' }}>How Can I Help You?</h3>
           <form id='myForm' onSubmit={sendEmail} style={{marginLeft:'160px'}}>
             <input type="text" name="name" placeholder="Full Name" required className="w-75  mt-4 form-control" />

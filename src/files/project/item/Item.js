@@ -6,7 +6,9 @@ import link from '../../../image/icons8-link-50.png';
 const Item = (props) => {
   const { name, img, live, gitClient, server } = props.project;
   return (
-    <Col>
+    <Col data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
       <Card>
         <Card.Img variant="top" src={img} />
         <Card.Body>

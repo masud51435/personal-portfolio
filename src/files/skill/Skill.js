@@ -24,15 +24,19 @@ const skills = [
 
 const Skill = () => {
   return (
-    <Container className='all'>
+    <Container className='all' data-aos="fade-up-right">
       <Navigation></Navigation>
       <hr style={{ color: 'white', border: '1px solid ' }} />
-      <Col style={{ textAlign: 'left', marginLeft: '20px' }}>
+      <Col data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine" style={{ textAlign: 'left', marginLeft: '20px' }}>
         <h5 style={{ color: '#9C9C9C', marginTop: '40px', fontWeight: '700' }}>My Skills</h5>
         <h1 style={{ color: 'white', marginBottom: '40px', fontWeight: '700', fontSize: '50px' }}>My skill in web development</h1>
       </Col>
       <hr style={{ color: 'white', border: '1px solid ' }} />
-      <Row  xs={3} md={5} lg={6} className="g-4 my-5">
+      <Row  xs={3} md={5} lg={6} className="g-4 my-5" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
         {
           skills.map(skill => <SkItem
             key={skill.name}
