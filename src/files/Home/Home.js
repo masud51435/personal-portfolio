@@ -20,7 +20,7 @@ const Home = () => {
           <h1 style={{ color: 'white', fontWeight: '700', fontSize: '60px' }}>Masud Rana</h1>
           <p style={{ color: 'white' }}>Familiar With MERN stack development and have done several projects using MongoDB, Express, React, and Node. I'm currently seeking For an internship that will help me grow as a developer and improve my skills.I have always been curious and passionate about web development. As a result, I started learning web development. After 6 months of my web development course, I have done several demo projects and gained experience in MERN stack development.</p>
           <Col>
-            <a href="https://drive.google.com/file/d/1taMg3zj-g6eSfYRJ0xkSUumMhOjbUWdT/view?usp=sharing" download>
+            <a href="https://drive.google.com/file/d/1SYCeJ6GWn_i5f1pmK9kk7NFRzznquNcm/view?usp=sharing" download>
               <button className="resume">Download Resume</button>
             </a>
             <a href="/contract">
